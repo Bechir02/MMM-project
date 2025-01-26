@@ -24,14 +24,16 @@ public class DBReader extends DataSource {
              ResultSet rs = stmt.executeQuery(query)) {
             while (rs.next()) {
                 // Process the data
-            Logger.getLogger(DBReader.class.getName()).log(Level.SEVERE, null, e);
+                // Example: System.out.println(rs.getString("column_name"));
+            }
         } catch (SQLException e) {
-            e.printStackTrace();
+            Logger.getLogger(DBReader.class.getName()).log(Level.SEVERE, null, e);
         }
     }
 
     @Override
     public void validateData() {
         // Implement data validation logic
+        System.out.println("Data validation logic not yet implemented.");
     }
 }

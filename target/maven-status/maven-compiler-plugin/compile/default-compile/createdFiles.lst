@@ -1,9 +1,12 @@
-com\project\visualization\Visualization.class
+com\project\database\DatabaseHandler.class
 com\project\datasource\CSVReader.class
-com\project\model\MachineLearningModel.class
+com\project\controller\Controller.class
 com\project\model\Model.class
 com\project\datasource\DBReader.class
 com\project\Main.class
-com\project\preprocessing\DataPreprocessor.class
 com\project\datasource\DataSource.class
+com\project\visualization\Visualization.class
+com\project\model\MachineLearningModel.class
+com\project\analysis\StatisticalAnalysis.class
+com\project\preprocessing\DataPreprocessor.class
 com\project\datasource\ExcelReader.class
